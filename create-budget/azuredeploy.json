@@ -129,11 +129,12 @@
             "contactRoles": "[parameters('contactRoles')]",
             "contactGroups": "[parameters('contactGroups')]"
           }
-        },
-        "filters": {
-          "resources": "[parameters('resourcesFilter')]",
-          "meters": "[parameters('metersFilter')]"
         }
+        // ,
+        // "filters": {
+        //   "resources": "[parameters('resourcesFilter')]",
+        //   "meters": "[parameters('metersFilter')]"
+        // }
       }
     }
   ],
